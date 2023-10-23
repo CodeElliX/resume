@@ -29,16 +29,6 @@ h1, h3, h4{
     text-align: center;
     padding: 160px 20px;
 }
-.main-head-ab h1{
-font-size: 96px;
-margin-top: 90px;
-}
-.main-head-ab h3{
-    color: #6c757d;
-}
-.main-head-ab p{
-    font-size: 18px;
-}
 .main-head p{
     font-family: var(--head-font);
     font-size: 36px;
@@ -141,6 +131,25 @@ font-weight: bold;
     text-decoration: underline;
    
 }
-.about-paragraphs p{
-    margin: 10px;
+
+.content-ab h1{
+font-size: 64px;
+font-family: var(--head-font);
+}
+.content-ab h2{
+    font-size: 18px;
+    font-family: var(--head-font);
+    font-weight: bold;
+}
+.container-ab{
+    padding: 160px 20px;
+    margin: 80px;
+}
+.content-ab p{
+    font-size: 16px;
+    font-family: var(--head-font);
+    color: #212529;
+}
+.img-ab{
+    max-width: 100%;
 }
