@@ -220,3 +220,11 @@ font-family: var(--head-font);
     background-color: var(--blue-color);
     color: #f9f7fe;
 }
+form{
+    width: 60%;
+}
+.pr-ds .mail{
+width: 200px;
+margin-left: 730px;
+margin-top: -300px;
+}
