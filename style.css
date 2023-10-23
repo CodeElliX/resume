@@ -9,6 +9,32 @@
 body{
     font-family: var(--def-font); 
 }
+nav{
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--dark-color);
+    font-family: var(--head-font);
+    font-weight: bold;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover{
+    color: var(--blue-color);
+}
+nav li{
+    display: inline;
+    padding: 8px;
+    line-height: 42px; 
+}
+nav li.active a{
+    color: var(--blue-color);
+}
+
+.logo{
+    max-height: 40px;
+}
 h1, h3, h4{
     font-family: var(--def-font);
     font-weight: bold;
@@ -116,7 +142,6 @@ text-align: center;
 margin: 0;
 padding: 20px;
     }
-    
 }
 .contact{
     line-height: 0.5;
