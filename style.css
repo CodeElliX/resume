@@ -79,11 +79,11 @@ p{
     color: var(--black-color);
 }
 
-.container h2{
+.container-text h1, h2{
     font-size: 64px;
     font-family: var(--def-font);
 }
-.container p{
+.container-text p{
     color: #6c757d;
     line-height: 30px;
     font-family: var(--def-font);
@@ -105,11 +105,16 @@ p{
         font-size: 44px;
         line-height: 2;
     }
-    .container h2{
+    .container-text h2{
         font-size: 44px;
     }
     .main-head{
         padding: 80px 20px;
+    }
+body .container-ab{
+text-align: center;
+margin: 0;
+padding: 20px;
     }
     
 }
