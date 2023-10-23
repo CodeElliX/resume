@@ -29,6 +29,16 @@ h1, h3, h4{
     text-align: center;
     padding: 160px 20px;
 }
+.main-head-ab h1{
+font-size: 96px;
+margin-top: 90px;
+}
+.main-head-ab h3{
+    color: #6c757d;
+}
+.main-head-ab p{
+    font-size: 18px;
+}
 .main-head p{
     font-family: var(--head-font);
     font-size: 36px;
@@ -39,7 +49,7 @@ h1, h3, h4{
 .btn-branding-1{
     background-color: var(--blue-color);
     color: var(--back-white-color);
-    padding: 15px 30px;
+    padding: 15px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-size: 18px;
@@ -49,7 +59,9 @@ h1, h3, h4{
     ease-in-out,border-color .15s 
     ease-in-out,box-shadow .15s 
     ease-in-out;
+    margin-right: 20px;
 }
+
 .btn-branding-1:hover{
     color: var(--black-color);
 }
@@ -61,7 +73,7 @@ p{
     background-color: transparent;
     color: var(--blue-color);
     border: 1px solid #6c63ff;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-size: 18px;
@@ -71,6 +83,7 @@ p{
     ease-in-out,border-color .15s 
     ease-in-out,box-shadow .15s 
     ease-in-out;
+    margin-left: 20px;
 }
 .btn-branding-2:hover{
     color: var(--black-color);
@@ -109,4 +122,25 @@ p{
         padding: 80px 20px;
     }
     
+}
+.contact{
+    line-height: 0.5;
+    margin-bottom: 100px;
+}
+.contact h2{
+font-size: 48px;
+font-weight: bold;
+}
+.contact a{
+    font-size: 28px;
+    text-decoration: none;
+    color: var(--blue-color);
+    margin-bottom: 50px;
+}
+.contact a:hover{
+    text-decoration: underline;
+   
+}
+.about-paragraphs p{
+    margin: 10px;
 }
